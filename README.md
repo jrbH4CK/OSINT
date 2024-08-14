@@ -8,4 +8,9 @@ A continuación listo los principales filtros y su uso:
 
 ```inurl:``` Este filtro se utiliza para encontrar solo resultados donde nuestra palabra clave se encuentre en la url, por ejemplo: ```inurl:login.php```
 
+![Texto alternativo](./img/osint-1.jpg)
+
+
+
+
 

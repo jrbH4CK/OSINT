@@ -18,3 +18,83 @@ Y obtenemos directory listing
 
 ![Texto alternativo](./img/osint-3.jpg)
 
+La lista de los filtros mas utilizados y su uso a continuación: 
+
+### Operadores Básicos
+
+- **`site:`**
+  - **Uso**: `site:ejemplo.com palabra clave`
+  - **Función**: Limita los resultados a un dominio específico. Ejemplo: `site:cnn.com tecnología`.
+
+- **`intitle:`**
+  - **Uso**: `intitle:palabra clave`
+  - **Función**: Muestra resultados donde la palabra clave aparece en el título de la página. Ejemplo: `intitle:vacaciones`.
+
+- **`inurl:`**
+  - **Uso**: `inurl:palabra clave`
+  - **Función**: Muestra resultados donde la palabra clave aparece en la URL. Ejemplo: `inurl:recetas`.
+
+- **`allintitle:`**
+  - **Uso**: `allintitle:palabras clave`
+  - **Función**: Muestra resultados donde todas las palabras clave están en el título de la página. Ejemplo: `allintitle:restaurantes veganos`.
+
+- **`allinurl:`**
+  - **Uso**: `allinurl:palabras clave`
+  - **Función**: Muestra resultados donde todas las palabras clave están en la URL. Ejemplo: `allinurl:productos electrónicos`.
+
+- **`intext:`**
+  - **Uso**: `intext:palabra clave`
+  - **Función**: Muestra resultados donde la palabra clave aparece en el texto de la página. Ejemplo: `intext:guía de viaje`.
+
+- **`allintext:`**
+  - **Uso**: `allintext:palabras clave`
+  - **Función**: Muestra resultados donde todas las palabras clave están en el texto de la página. Ejemplo: `allintext:planificación financiera`.
+
+- **`filetype:`**
+  - **Uso**: `filetype:extensión palabra clave`
+  - **Función**: Muestra resultados que son de un tipo de archivo específico (como PDF, DOC, XLS). Ejemplo: `filetype:pdf informe anual`.
+
+- **`cache:`**
+  - **Uso**: `cache:URL`
+  - **Función**: Muestra la versión en caché de una página web. Ejemplo: `cache:example.com`.
+
+- **`related:`**
+  - **Uso**: `related:URL`
+  - **Función**: Muestra sitios web similares al que se especifica. Ejemplo: `related:example.com`.
+
+- **`define:`**
+  - **Uso**: `define:palabra clave`
+  - **Función**: Muestra definiciones de la palabra clave. Ejemplo: `define:biología`.
+
+### Operadores Avanzados
+
+- **`OR`**
+  - **Uso**: `palabra clave1 OR palabra clave2`
+  - **Función**: Muestra resultados que contienen al menos una de las palabras clave. Ejemplo: `gatos OR perros`.
+
+- **`-` (menos)**
+  - **Uso**: `palabra clave -palabra excluida`
+  - **Función**: Excluye resultados que contengan la palabra excluida. Ejemplo: `tecnología -gadgets`.
+
+- **`" "` (comillas)**
+  - **Uso**: `"frase exacta"`
+  - **Función**: Muestra resultados que contienen la frase exacta entre comillas. Ejemplo: `"cómo hacer pan"`.
+
+- **`*` (asterisco)**
+  - **Uso**: `palabra clave * palabra clave`
+  - **Función**: Actúa como un comodín para cualquier palabra. Ejemplo: `mejores * para viajar`.
+
+- **`..` (rango)**
+  - **Uso**: `número1..número2`
+  - **Función**: Muestra resultados dentro de un rango numérico. Ejemplo: `cámara $200..$500`.
+
+- **`before:` y `after:`**
+  - **Uso**: `palabra clave before:YYYY-MM-DD` o `palabra clave after:YYYY-MM-DD`
+  - **Función**: Muestra resultados antes o después de una fecha específica. Ejemplo: `noticias antes:2023-01-01`.
+
+### Ejemplo de Búsqueda Completa
+
+Estos filtros se pueden combinar para hacer busquedas poderosas, por ejemplo, para buscar documentos PDF sobre marketing en el sitio de la Universidad de Harvard, podrías usar:
+```site:harvard.edu filetype:pdf marketing```
+
+![Texto alternativo](./img/osint-4.jpg)

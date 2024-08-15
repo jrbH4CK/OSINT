@@ -98,3 +98,7 @@ Estos filtros se pueden combinar para hacer busquedas poderosas, por ejemplo, pa
 ```site:harvard.edu filetype:pdf marketing```
 
 ![Texto alternativo](./img/osint-4.jpg)
+
+
+## OSINT Framework
+Osint framework es una herramienta desarrollada para recopilar información desde recursos gratuitos, la intension de este framework es proporcionar las herramientas que permitan realizar una profunda investigacion hacia un objetivo, disponible desde el siguiente enlace https://osintframework.com/.

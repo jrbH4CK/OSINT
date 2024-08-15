@@ -102,3 +102,13 @@ Estos filtros se pueden combinar para hacer busquedas poderosas, por ejemplo, pa
 
 ## OSINT Framework
 Osint framework es una herramienta desarrollada para recopilar información desde recursos gratuitos, la intension de este framework es proporcionar las herramientas que permitan realizar una profunda investigacion hacia un objetivo, disponible desde el siguiente enlace https://osintframework.com/.
+## Domain info
+Los principales recursos que mas utiles han sido para mi son los siguientes:
+- DomainTools Whois: Esta es una pagina que consulta los registros whois de dominios y de ip, tambien muestra informacion acerca de subdominios y el cambio de ips que ha tenido el dominio durante el tiempo. Disponible desde este enlace: https://whois.domaintools.com/
+- Urlscan.io: Esta pagina web tambien consulta informacion de los dominios como ubicacion, ip, http responses, etc. disponible desde aqui: https://urlscan.io/
+- Synapsint: Esta herramienta busca todos los subdominos a partir del nombre de dominio o de la ip de forma pasiva, disponible desde https://synapsint.com/
+## Shodan
+
+## Cencys
+
+## LeakIX
